@@ -97,7 +97,6 @@ body {
 
 .main button {
     background-color:#3882F6;
-    color: white;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 7px;
@@ -156,4 +155,46 @@ body {
     font-size: 26px;
     font-weight: 600;
     font-style: normal;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.sign-up .left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sign-up .right {
+    align-self: center;
+}
+
+
+.sign-up .text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-color:#E5E7EB;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-radius: 10px;
+    font-size: 18px;
 }
