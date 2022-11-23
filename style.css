@@ -1,0 +1,46 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header-links,
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo,
+.logo a:visited {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header-links,
+.header-links a:visited {
+    font-size: 18px;
+    color: #E5E7EB;
+}
