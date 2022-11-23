@@ -22,7 +22,7 @@ a {
 .logo {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 18px;
 }
 
 .logo,
@@ -47,6 +47,10 @@ a {
 .main button {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header-links a:hover {
+    color: #F9FAF8;
 }
 
 .footer {
@@ -81,7 +85,7 @@ body {
     flex-direction: column;
     justify-content:center;
     align-items: flex-start;
-    gap: 12px;
+    gap: 16px;
 }
 
 .main img {
@@ -197,4 +201,11 @@ body {
     padding-top: 7px;
     border-radius: 10px;
     font-size: 18px;
+}
+
+button {
+    font-weight: 600;
+}
+button:hover {
+    background-color: #1770ff;
 }
