@@ -1,6 +1,6 @@
 # odin-landing-page
 
-This basic website is the second project in the The Odin Project : Foundations course. The purpose of the project is to practise the use of HTML, CSS and The Flexible Box Layout Model.
+[This basic website](https://semplicita.github.io/odin-landing-page/) is the second project in the The Odin Project : Foundations course. The purpose of the project is to practise the use of HTML, CSS and The Flexible Box Layout Model.
 
 [Project description on The Odin Project website](https://www.theodinproject.com/lessons/foundations-landing-page)
 
