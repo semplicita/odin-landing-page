@@ -42,12 +42,14 @@ a {
 }
 
 .logo,
+.logo a,
 .logo a:visited {
     font-size: 24px;
     color: #F9FAF8;
 }
 
 .header-links,
+.header-links a,
 .header-links a:visited,
 .main .subtext,
 .main button {
