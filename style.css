@@ -2,11 +2,17 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;;
 }
 
-html,body {
+html, body {
     margin:0;
     padding:0;
     width: 100%;
     height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 ul {
@@ -17,6 +23,16 @@ a {
     text-decoration: none;
 }
 
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    background-color: #1F2937;
+}
 
 .header-links,
 .logo {
@@ -31,16 +47,6 @@ a {
     color: #F9FAF8;
 }
 
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
-    align-items: center;
-    background-color: #1F2937;
-}
-
 .header-links,
 .header-links a:visited,
 .main .subtext,
@@ -53,6 +59,8 @@ a {
     color: #F9FAF8;
 }
 
+/* FOOTER */
+
 .footer {
     display: flex;
     align-items: center;
@@ -63,14 +71,15 @@ a {
     margin-top: auto;
 }
 
-body {
+/* SUBSECTIONS */
+
+.subsection {
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
 }
 
+/* SUBSECTION 1 */
+
 .main {
-    display: flex;
     background-color: #1F2937;
     justify-content: center;
     padding-left: 200px;
@@ -99,15 +108,7 @@ body {
     color: #F9FAF8;
 }
 
-.main button {
-    background-color:#3882F6;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 7px;
-    padding-top: 7px;
-    border-radius: 10px;
-    border: none;
-}
+/* SUBSECTION 2 */ 
 
 .container {
     display: flex;
@@ -136,13 +137,16 @@ body {
 }
 
 .information {
+    flex-direction: column;
+    justify-content: center;
     padding-top: 50px;
     padding-bottom: 100px;
     text-align: center;
 }
 
+/* SUBSECTION 3 */
+
 .quotation {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 250px;
@@ -163,8 +167,9 @@ body {
     font-style: normal;
 }
 
+/* SUBSECTION 4 */ 
+
 .sign-up {
-    display: flex;
     justify-content: space-around;
     margin-left: 200px;
     margin-right: 200px;
@@ -193,21 +198,29 @@ body {
     font-weight: bold;
 }
 
-.sign-up button {
+/* BUTTONS */ 
+
+button {
     background-color: #3882F6;
-    color: #E5E7EB;
-    border-color:#E5E7EB;
+    font-weight: 600;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 7px;
     padding-top: 7px;
-    border-radius: 10px;
-    font-size: 18px;
+    border-radius: 10px;    
 }
 
-button {
-    font-weight: 600;
-}
 button:hover {
     background-color: #1770ff;
+}
+
+.main button {
+    border: none;
+}
+
+.sign-up button {
+    color: #E5E7EB;
+    border-color:#E5E7EB;
+    border-radius: 10px;
+    font-size: 18px;
 }
